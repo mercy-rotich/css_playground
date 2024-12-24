@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    width: 70%;
+    margin: 1rem auto;
+    
+}
+h1{
+    background: gold;
+    border-radius: 2rem 2rem 0 0;
+}
+nav{
+    border: 1px solid black;
+    font-size: 3rem;
+    border-radius: 2rem;
+    text-align: center;
+    line-height: 1.8;
+}
+li{
+    display: block;
+    list-style: none;
+    border-top: 1px solid black;
+}
+
+li:hover ,li:focus{
+   background: black;
+   color: white;
+}
+li:last-child:hover{
+    border-radius: 0 0 2rem 2rem;
+}
+p{
+    font-size: 1.5rem;
+}
+a{
+    color: rgb(0, 174, 255);
+    text-decoration: none;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+  color:  rgb(0, 225, 255);  
+}
+a:active{
+    color: red;
+}
